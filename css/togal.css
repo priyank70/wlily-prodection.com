@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(200, 200, 200);
+}
+
+.container {
+    background-color: yellow;
+    width: 500px;
+    margin:22px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 22px; */
+    /* margin-left: 40%; */
+    border-radius: 4px;
+}
+
+.que {
+    display: flex;
+    margin-left: 30px;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+.ans {
+    background-color: white;
+    margin-top: -10px;
+}
+
+.ans p {
+    padding: 15px;
+    /* margin-left: 5px; */
+    color: black;
+    display: none;
+}
+.active p{
+    display: block;
+}

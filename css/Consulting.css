@@ -1,0 +1,32 @@
+.hero-info {
+    position: relative;
+    padding-top: 169px;
+    /* padding-bottom: 189px; */
+    background-image: url(../img/back4.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -133px;
+}
+
+.hero-info::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/back4.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+
+.contect p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    text-transform: capitalize;
+    text-align: center;
+}

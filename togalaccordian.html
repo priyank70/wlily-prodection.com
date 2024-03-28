@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordion</title>
+    <link rel="stylesheet" href="css/togal.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="que">
+            <h2>chennai super kings</h2>
+            <button class="show">+</button>
+            <button class="hide">-</button>
+        </div>
+        <div class="ans">
+            <p>The Chennai Super Kings (CSK) are a professional cricket team in Chennai, India. They play in the Indian
+                Premier League (IPL) and have won five titles, including 2010, 2011, 2018, 2021, and 2023. The team's
+                home ground is the M.A. Chidambaram Stadium, named after the former BCCI President M.A. Chidambaram</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="que">
+            <h2>chennai super kings</h2>
+            <button class="show">+</button>
+            <button class="hide">-</button>
+        </div>
+        <div class="ans">
+            <p>The Chennai Super Kings (CSK) are a professional cricket team in Chennai, India. They play in the Indian
+                Premier League (IPL) and have won five titles, including 2010, 2011, 2018, 2021, and 2023. The team's
+                home ground is the M.A. Chidambaram Stadium, named after the former BCCI President M.A. Chidambaram</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="que">
+            <h2>chennai super kings</h2>
+            <button class="show">+</button>
+            <button class="hide">-</button>
+        </div>
+        <div class="ans">
+            <p>The Chennai Super Kings (CSK) are a professional cricket team in Chennai, India. They play in the Indian
+                Premier League (IPL) and have won five titles, including 2010, 2011, 2018, 2021, and 2023. The team's
+                home ground is the M.A. Chidambaram Stadium, named after the former BCCI President M.A. Chidambaram</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="que">
+            <h2>chennai super kings</h2>
+            <button class="show">+</button>
+            <button class="hide">-</button>
+        </div>
+        <div class="ans">
+            <p>The Chennai Super Kings (CSK) are a professional cricket team in Chennai, India. They play in the Indian
+                Premier League (IPL) and have won five titles, including 2010, 2011, 2018, 2021, and 2023. The team's
+                home ground is the M.A. Chidambaram Stadium, named after the former BCCI President M.A. Chidambaram</p>
+        </div>
+    </div>
+
+    <script>
+
+        var updown = document.getElementsByClassName('container');
+        // console.log(updown);
+
+        for (let i = 0; i < updown.length; i++) {
+            updown[i].addEventListener('click', function accordian() {
+                updown[i].classList.toggle("active");
+            });
+        }
+
+    </script>
+</body>
+
+</html>

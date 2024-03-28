@@ -1,0 +1,88 @@
+.hero-info {
+    position: relative;
+    padding-top: 169px;
+    padding-bottom: 0;
+    background-image: url(../img/back7.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -133px;
+}
+
+.hero-info::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/back7.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+
+/* Flex container for the card set */
+.low_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.f-box{
+    border-bottom: none;
+}
+
+
+.card {
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: calc(33.33% - 30px);
+    margin: 40px 15px;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Styling for card info */
+.card_info {
+    padding: 15px;
+    /* background-color: #f9f9f9; */
+}
+
+
+.card_info h4 {
+    margin-top: 0;
+    font-size: 14px;
+    color: #0E7ABF;
+}
+
+.card_info h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black !important;
+}
+
+
+
+
+.active::after {
+    content: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .low_part .w-33{
+        
+        width: calc(50% - 30px);
+    }
+}
+@media screen and (max-width: 576px) {
+    .low_part .w-33{
+        
+        width: calc(100% - 30px);
+    }
+}

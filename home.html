@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wiliy prodection</title>
+    <!-- <link rel="stylesheet" href="css/services.css"> -->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="flex jutify-between aling-center top-section">
+                <div class="hide_menu">
+                    <div class="hide-img">
+                        <img src="img/menu.png" alt="">
+                    </div>
+                    <div class="menu-2">
+                        <ul>
+                            <li class="active"><a href="home.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contect.html">Contect Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul class="flex">
+                        <li class="active1"><a href="home.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contect.html">Contect Us</a></li>
+                    </ul>
+                </div>
+                <div class="h-button">
+                    <a href="tel:(352) 553-5286 " class="blue-button"><i class="fa-solid fa-phone"></i>(352)
+                        553-5286</a>
+                    <a href="#form" class="green-button">SEND QUERY</a>
+                </div>
+            </div>
+    </header>
+
+    <div class="hero-info">
+        <div class="container">
+            <div class="flex jutify-between aling-center">
+                <div class="w-60 hading">
+                    <h1>Expert Technology Consultants Serving All Of Florida</h1>
+                    <p>Technology Consultant | Installations | Upgrades | Troubleshooting</p>
+                    <div class="call-button ">
+
+                        <a href="mailto:priyank1345@gmail.com" class="green-button">WE CAN HELP!</a>
+                        <a href="tel:(352) 553-5286 " class="blue-button"><i class="fa-solid fa-phone"></i>(352)
+                            553-5286</a>
+                    </div>
+                </div>
+                <div class="query-form">
+                    <form onsubmit="" id="form">
+                        <h2>Request A Quote</h2>
+                        <p>The Highest-Rated Technology Consultant In The Area!</p>
+                        <div class="form-group">
+                            <div class="name">
+                                <label class="control-labal" for="name">Enter Your Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Enter Your Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="mail">
+                                <label class="control-labal" for="Email">Enter your Email</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" placeholder="Enter Your Email"
+                                    pattern="^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="phone-numer">
+                                <label class="control-labal" for="p-number">enter phone number</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-services">
+                                <label class="control-labal" for="service">Enter your Services</label>
+                            </div>
+                            <div class="input-services">
+                                <select id="service" name="service" required>
+                                    <option value="Troubleshooting">Troubleshooting</option>
+                                    <option value="saab">Haven Serviced</option>
+                                    <option value="fiat">Service Agent</option>
+                                    <option value="audi">Limitless Service</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-button">
+                            <input type="submit" id="submit" value="Get Free Quote">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <a href="#section1">
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
+    </div>
+    <section>
+        <div class="container" id="section1">
+            <div class="section1">
+                <h2>Wiley Production Offers Quality Technology Consulting Services</h2>
+                <hr>
+            </div>
+            <div class="down-section flex jutify-between aling-item-center">
+                <div class="s-left-img">
+                    <img src="img/Group 65.png" alt="">
+                    <!-- <div class="frame">
+                        <img src="img/Frame.png" alt="">
+                    </div> -->
+                    <div class="play">
+                        <a href="https://youtu.be/bYvgvYWqMn0?si=feHM4t3EgHJdWCyn"><img src="img/Down Arrow.svg"
+                                alt=""></a>
+
+                    </div>
+                </div>
+
+                <div class="w-50 per">
+                    <p class="firstp">Whenever you want to do something new or improve on a given system, it is always a
+                        good idea to
+                        consult experts in the industry. You may need to install a new AV system in your business
+                        premise or to connect every rental unit in an apartment building to an intercom at the main
+                        entrance. Whatever your technology needs, it is imperative you take time to search for the best
+                        AV consultant, designer and installer to handle the project. The service provider you choose
+                        will determine whether or not the installation of the system will be completed in a timely
+                        manner and within budget as well as work to your satisfaction.</p>
+                    <p class="secondp">
+                        Client care is priority. Wiley Productions services Range from simple Troubleshooting to large
+                        scale
+                        installations of technology. Our focus on building a relationship with our clients is what sets
+                        us
+                        apart in the hustle and bustle of the technology world. If we can’t fix it, it’s free!
+                    </p>
+                    <div class="read">
+                        <a href="Consulting.html" class="green-button">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section - 2 -->
+    <section class="services">
+        <div class="container">
+            <div class="intro-services">
+                <h2>Our Services</h2>
+                <hr>
+                <p>Wiley Production has been offering technology consulting services over a long period of time, so we
+                    have a better understanding of client needs and expectations</p>
+            </div>
+
+            <div class="new-box owl-carousel owl-theme">
+                <div class="slide-box">
+                    <img src="img/1.png" alt="">
+                    <div class="box-info">
+                        <h2>System Design and Installation </h2>
+                        <p>At Wiley Production, we appreciate the importance of having the highest quality
+                            AV
+                            equipment in your boardroom and offices. </p>
+
+                        <a href="services.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="img/Images.png" alt="">
+                    <div class="box-info">
+                        <h2>System Design and Installation </h2>
+                        <p>At Wiley Production, we appreciate the importance of having the highest quality
+                            AV
+                            equipment in your boardroom and offices. </p>
+
+                        <a href="services.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="img/2.png" alt="">
+                    <div class="box-info">
+                        <h2>System Design and Installation </h2>
+                        <p>At Wiley Production, we appreciate the importance of having the highest quality
+                            AV
+                            equipment in your boardroom and offices. </p>
+
+                        <a href="services.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="img/3.png" alt="">
+                    <div class="box-info">
+                        <h2>System Design and Installation </h2>
+                        <p>At Wiley Production, we appreciate the importance of having the highest quality
+                            AV
+                            equipment in your boardroom and offices. </p>
+
+                        <a href="services.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ---section 3----- -->
+    <section class="section3" id="About">
+        <div class="container">
+            <div class="down-section flex jutify-between aling-center">
+                <div class="w-50 per sect-per">
+                    <h2>Why Choose Wiley Production?</h2>
+                    <hr>
+                    <p>We have plenty of experience in the technology consulting industry, particularly AV consulting.
+                        Our enormous industry experience means that we are better placed to take care of your
+                        audio-visual consulting needs. Service providers usually get better and better with time, so our
+                        technicians are highly competent as they have been serving different types of clients with
+                        different types of AV requirements</p>
+                    <a href="aboutus.html" class="green-button">Read more</a>
+                </div>
+                <div class="s-left-img">
+                    <img src="img/lastone.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ---------about section------------ -->
+    <section class="cont">
+        <div class="container">
+            <div class="about_hading">
+                <h2> Don't Know What You Need? Want A Quote?</h2>
+                <hr>
+                <p>Installation, Upgrade, or Troubleshooting. Are You Wondering, “Whats the
+                    difference?
+                    What service
+                    matches my specific needs?” Well, we have a solution. Just Ask! Simply fill out the form
+                    describing what the situation is and what your specific needs are and we’ll go ahead and
+                    send
+                    you a quote to fulfill your needs!</p>
+                <h3>Just Ask Us!</h3>
+                <form action="">
+                    <div class="flex-wrap">
+                        <div class="name">
+                            <input type="text" placeholder="Name" style="margin-right: 10px;" required>
+                        </div>
+                        <div class="email">
+                            <input type="email" placeholder="Email" pattern="^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$"
+                                required>
+                        </div>
+                    </div>
+                    <div class="phone-num">
+                        <input type="tel" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required">
+                    </div>
+                    <div class="message">
+                        <textarea name="message" id="message" cols="30" rows="6" placeholder="Message"
+                            required></textarea>
+                    </div>
+                    <input type="submit" class="green-button" value="send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!---------blog section------ -->
+    <section id="Blog">
+        <div class="container">
+            <div class="top_head">
+                <h2>Our Latest Blog</h2>
+                <hr>
+            </div>
+
+            <div class="low_part flex slider-2 owl-carousel owl-theme">
+                <div class="card">
+                    <img src="img/card1.png" alt="">
+                    <div class="card_info">
+                        <h4>April 9, 2020</h4>
+                        <h3>11 Common Problems With Your Installation</h3>
+                        <a href="blog.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/card2 (2).png" alt="">
+                    <div class="card_info">
+                        <h4>April 9, 2020</h4>
+                        <h3>11 Common Problems With Your Installation</h3>
+                        <a href="blog.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/card3.png" alt="">
+                    <div class="card_info">
+                        <h4>April 9, 2020</h4>
+                        <h3>11 Common Problems With Your Installation</h3>
+                        <a href="blog.html" class="green-button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------contect section-------- -->
+    <section id="contect">
+        <div class="container">
+            <div class="contect">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+            <div class="contect_parts">
+                <a class="contect_us" href="tel:(352) 553-5286">
+                    <div class="cont_img flex">
+                        <!-- The image given below is to be placed in the center. -->
+                        <img src="img/Ellipse 1.png" alt="">
+                    </div>
+                    <h3>Contact</h3>
+                    <p>(352) 553-5286</p>
+                </a>
+                <a class="contect_us" href="mailto:priyank1345@gmail.com">
+                    <div class="cont_img flex">
+                        <!-- The image given below is to be placed in the center. -->
+                        <img src="img/Ellipse 2.png" alt="">
+                    </div>
+                    <div class="cont-detail">
+                        <h3>E-Mail</h3>
+                        <p class="truncate">info@wileyproduction.com</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="flex aling-center">
+                <div class="footer-card">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                            graphic
+                            or web designs.</p>
+                        <h4>follow Us:</h4>
+                        <div class="social_m">
+                            <a href="https://www.facebook.com/">
+                                <img src="img/facebook 1.png" alt="">
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <img src="img/youtube 1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <div class="flex f-box">
+                        <div class="f-menu">
+                            <h4>Wiley Productions</h4>
+                            <ul class="hide-acc">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="contect.html">Contect us</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">about us</a></li>
+                                <li><a href="aboutus.html">why choose willey Production?</a></li>
+                            </ul>
+
+
+                        </div>
+                        <div class="f-menu">
+                            <h4>services</h4>
+                            <ul class="hide-acc">
+                                <li><a href="services.html">System Design and Installation</a></li>
+                                <li><a href="Troubleshooting.html">Troubleshooting and Repairs</a></li>
+                                <li><a href="Consulting.html">Technology Consulting</a></li>
+                                <li><a href="aboutus.html">System Upgrades</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <h4 class="f-last">©2020 Wiley Productions</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            // Function to initialize or destroy Owl Carousel based on screen width
+            function toggleSlider() {
+                // Check if screen width matches 786 pixels
+                if ($(window).width() <= 768) {
+                    // Initialize Owl Carousel as a slider with 1 item displayed at a time
+                    $(".slider-2").owlCarousel({
+                        items: 2,
+                        loop: true,
+                        dots: true,
+                        margin: 20,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            576: {
+                                items: 2
+                            },
+                        }
+                    });
+                } else {
+                    // Destroy Owl Carousel
+                    var owl = $(".slider-2");
+                    if (owl.hasClass('owl-loaded')) {
+                        owl.owlCarousel('destroy');
+                    }
+                }
+            }
+
+            // Initial call to toggleSlider
+            toggleSlider();
+
+            // Listen for window resize event
+            $(window).resize(function () {
+                // Call toggleSlider on window resize
+                toggleSlider();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Function to initialize or destroy Owl Carousel based on screen width
+            function toggleSlider() {
+                // Check if screen width matches 786 pixels
+                if ($(window).width() <= 768) {
+                    // Initialize Owl Carousel as a slider with 1 item displayed at a time
+                    $(".new-box").owlCarousel({
+                        items: 2,
+                        loop: true,
+                        dots: true,
+                        margin: 20,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            576: {
+                                items: 2
+                            },
+                        }
+                    });
+                } else {
+                    // Destroy Owl Carousel
+                    var owl = $(".new-box");
+                    if (owl.hasClass('owl-loaded')) {
+                        owl.owlCarousel('destroy');
+                    }
+                }
+            }
+
+            // Initial call to toggleSlider
+            toggleSlider();
+
+            // Listen for window resize event
+            $(window).resize(function () {
+                // Call toggleSlider on window resize
+                toggleSlider();
+            });
+        });
+    </script>
+
+
+    <script>
+        let hidemenu = document.getElementsByClassName('hide_menu');
+
+        for (let i = 0; i < hidemenu.length; i++) {
+            hidemenu[i].addEventListener('click', function responsiveMenu() {
+                hidemenu[i].classList.toggle('active');
+            })
+        }
+    </script>
+    <script>
+        let hideacc = document.getElementsByClassName('f-menu');
+
+        for (let i = 0; i < hideacc.length; i++) {
+            hideacc[i].addEventListener('click', function () {
+                hideacc[i].classList.toggle('active');
+            })
+        }
+    </script>
+
+</body>
+
+</html>

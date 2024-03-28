@@ -1,0 +1,139 @@
+.hero-info {
+    position: relative;
+    background-image: url(../img/lastback.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -133px;
+    padding-top: 300px;
+    padding-bottom: 180px;
+}
+
+.hero-info::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/lastback.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+
+.hero-info p {
+    text-align: center;
+    padding: 0 200px;
+}
+
+.ask form {
+    margin-top: 40px;
+}
+.f-name , .l-name , .cont-email , .cont-num{
+    width: calc(50% - 10px);
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+
+    width: 48%;
+    padding: 18px 24px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    /* 100% */
+    /* text-transform: capitalize; */
+}
+.f-name input , .l-name input , .cont-email input, .cont-num input{
+    width: 100%;
+}
+
+.ask input[type="submit"] {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+}
+
+.ask h2 {
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.ask hr{
+    margin: 20px auto;
+}
+
+.ask {
+    width: calc(60% - 30px);
+    margin-right: 30px;
+}
+
+.contect-ask {
+    width: calc(40% - 30px);
+    margin-left: 30px;
+}
+
+.contect_us {
+    background-color: #F6F8F9;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .f-name , .l-name , .cont-email , .cont-num{
+    width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+    .hero-info {
+        padding-bottom: 195px;
+    }
+
+    .hero-info p {
+        padding: 0px 0px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .ask {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contect-ask {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
+    }
+}

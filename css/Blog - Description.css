@@ -1,0 +1,209 @@
+.hero-info h1 {
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 128.571% */
+    text-transform: uppercase;
+    /* padding: 193px 0; */
+}
+
+.hero-info {
+    position: relative;
+    background-image: url(../img/back8.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -133px;
+    padding-top: 300px;
+    padding-bottom: 180px;
+}
+
+/* img {
+    width: 100%;
+} */
+
+.hero-info::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/back8.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+
+.problem_part_1 {
+    width: 70%;
+}
+.problem_part_1 img{
+    width: 100%;
+}
+
+.problem_part_1 h4 {
+    color: #0E7ABF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
+}
+
+.problem_part_1 hr {
+    margin-top: 60px;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: gray;
+}
+
+.problem_part_1 .share {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.share span:nth-child(1) {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+span i {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+.detail {
+    margin-left: 80px;
+    width: 30%;
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-card {
+    text-align: center;
+    padding: 70px 30px 30px;
+    background-color: #F6F8F9;
+}
+
+.user {
+    margin-top: 52px;
+    position: relative;
+}
+
+.user-card img {
+    position: absolute;
+    top: -25%;
+    left: 34%;
+}
+
+.user-card h3 {
+    color: #0E7ABF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+    text-transform: uppercase;
+}
+
+.user-card p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.post h2 {
+    color: #0E7ABF;
+    margin-top: 30px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.post-card {
+    padding: 20px;
+    background-color: #F6F8F9;
+    margin-bottom: 15px;
+}
+
+.post-card span {
+    color: #0E7ABF;
+    font-size: 14px;
+    font-style: normal;
+
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
+}
+
+.post-card p {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 5px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* .hero-info {
+        padding-top: 169px;
+    } */
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .problem_part_1 {
+        width: 100%;
+    }
+
+    .detail {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero-info h1 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+    .hero-info h1{
+        font-size: 30px;
+    }
+    .social_m img {
+        width: 30px;
+    }
+}
